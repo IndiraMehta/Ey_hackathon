@@ -1,0 +1,46 @@
+[
+  {
+    "Hospital_Name": "Dist Hospital Ranchi",
+    "Address_Original_First_Line": "Main Rd, Ranchi",
+    "State": "Jharkhand",
+    "District": "Ranchi",
+    "Pincode": "834001",
+    "Telephone": "0651-2200123",
+    "Hospital_Primary_Email_Id": "",
+    "Specialties": "General Medicine, Emergency",
+    "Hospital_Category": "Government"
+  },
+  {
+    "Hospital_Name": "District Hosp. Ranchi",
+    "Address_Original_First_Line": "Near Main Road Ranchi Jh",
+    "State": "JH",
+    "District": "Ranchi",
+    "Pincode": "",
+    "Telephone": "2200123",
+    "Hospital_Primary_Email_Id": "distranchi@gmail.com",
+    "Specialties": "Emergency",
+    "Hospital_Category": "Govt"
+  },
+  {
+    "Hospital_Name": "Sadar Hospital Dhanbad",
+    "Address_Original_First_Line": "Court More, Dhanbad",
+    "State": "Jharkhand",
+    "District": "Dhanbad",
+    "Pincode": "826001",
+    "Telephone": "",
+    "Hospital_Primary_Email_Id": "",
+    "Specialties": "OPD",
+    "Hospital_Category": "Public"
+  },
+  {
+    "Hospital_Name": "Sadar Hosp Dnbd",
+    "Address_Original_First_Line": "Near Court, Dhanbad Jh",
+    "State": "Jharkhand",
+    "District": "Dhanbad",
+    "Pincode": "826001",
+    "Telephone": "0326-2312345",
+    "Hospital_Primary_Email_Id": "info@sadarhosp.com",
+    "Specialties": "OPD, Surgery",
+    "Hospital_Category": "Government"
+  }
+]
