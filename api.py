@@ -2,9 +2,19 @@ from fastapi import FastAPI
 import joblib
 from ml.feature_engineering import build_features
 from ml.trust_scoring import compute_trust
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
 model = joblib.load("ml/model.joblib")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/validate")
 def validate(data: dict):
